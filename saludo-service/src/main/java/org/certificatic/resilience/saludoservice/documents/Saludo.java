@@ -17,5 +17,5 @@ public class Saludo {
 
 	@Id
 	private String id;
-	private String name;
+	private String saludo;
 }

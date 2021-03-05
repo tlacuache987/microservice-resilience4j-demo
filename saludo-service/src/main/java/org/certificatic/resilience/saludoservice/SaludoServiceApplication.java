@@ -21,9 +21,9 @@ public class SaludoServiceApplication {
 	public CommandLineRunner setUp(SaludoRepository saludoRepository) {
 		return (args) -> {
 			List<Saludo> saludos = Arrays.asList(
-					Saludo.builder().id("1").name("Buenos días").build(),
-					Saludo.builder().id("2").name("Buenas tardes").build(),
-					Saludo.builder().id("3").name("Buenas madrugadas").build());
+					Saludo.builder().id("1").saludo("Buenos días").build(),
+					Saludo.builder().id("2").saludo("Buenas tardes").build(),
+					Saludo.builder().id("3").saludo("Buenas madrugadas").build());
 
 			saludoRepository.saveAll(saludos);
 		};
