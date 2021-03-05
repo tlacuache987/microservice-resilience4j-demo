@@ -1,6 +1,6 @@
 server:
   port: 9091
-
+  
 resilience4j:
   circuitbreaker:
     configs:
