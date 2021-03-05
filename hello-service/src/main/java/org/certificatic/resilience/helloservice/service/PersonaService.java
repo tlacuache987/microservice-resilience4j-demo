@@ -14,6 +14,7 @@ public class PersonaService {
 	private final PersonaRepository personaRepository;
 
 	public Mono<Persona> obtenerPersona(String id) {
-		return personaRepository.findById(id);
+		return personaRepository.findById(id)
+				.switchIfEmpty(Mono.error(new RuntimeException("No person with id " + id + " found!")));
 	}
 }
