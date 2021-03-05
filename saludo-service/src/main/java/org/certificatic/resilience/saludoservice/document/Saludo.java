@@ -1,4 +1,4 @@
-package org.certificatic.resilience.saludoservice.documents;
+package org.certificatic.resilience.saludoservice.document;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

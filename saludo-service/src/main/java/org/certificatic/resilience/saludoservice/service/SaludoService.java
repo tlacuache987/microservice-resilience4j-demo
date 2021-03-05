@@ -1,6 +1,6 @@
 package org.certificatic.resilience.saludoservice.service;
 
-import org.certificatic.resilience.saludoservice.documents.Saludo;
+import org.certificatic.resilience.saludoservice.document.Saludo;
 import org.certificatic.resilience.saludoservice.repository.SaludoRepository;
 import org.springframework.stereotype.Component;
 

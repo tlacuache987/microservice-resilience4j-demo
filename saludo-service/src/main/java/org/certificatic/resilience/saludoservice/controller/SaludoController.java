@@ -1,6 +1,6 @@
 package org.certificatic.resilience.saludoservice.controller;
 
-import org.certificatic.resilience.saludoservice.documents.Saludo;
+import org.certificatic.resilience.saludoservice.document.Saludo;
 import org.certificatic.resilience.saludoservice.service.SaludoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

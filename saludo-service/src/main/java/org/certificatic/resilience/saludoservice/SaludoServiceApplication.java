@@ -3,7 +3,7 @@ package org.certificatic.resilience.saludoservice;
 import java.util.Arrays;
 import java.util.List;
 
-import org.certificatic.resilience.saludoservice.documents.Saludo;
+import org.certificatic.resilience.saludoservice.document.Saludo;
 import org.certificatic.resilience.saludoservice.repository.SaludoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
